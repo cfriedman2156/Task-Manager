@@ -122,7 +122,6 @@ function handleDeleteTask(event){
     event.preventDefault();
 
         const taskId = $(this).attr("data-task-id");
-        //CHANGE TO FOR LOOP//
         for (let i = 0; i < taskList.length; i++) {
             if (taskList[i].id !== parseInt(taskId)) {
             } else {
@@ -138,7 +137,6 @@ function handleDeleteTask(event){
 // Todo: create a function to handle dropping a task into a new status lane
 function handleDrop(event, ui) {
   
-    
     const taskId = $(ui.draggable).data("task-id"); 
     console.log("taskId:", taskId);
     
