@@ -1,2 +1,1 @@
-# Task-Manager
-A web app that helps manage to-dos!
+# Task Board Starter Code
